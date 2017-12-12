@@ -1,0 +1,23 @@
+ul li {
+    list-style-type: none;
+}
+ul li:before {
+    content:  "—";
+    position: relative;
+    left:     -5px;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.phone-number:hover{
+    color: $blue;
+    text-decoration: none;
+}
+.phone-number{
+    font-weight: 600;
+    font-size: large;
+    text-decoration: none;
+}
